@@ -34,6 +34,8 @@ public class CallableExample {
         }finally {
             executor.shutdown();
         }
+
+					System.out.println("Total: " + sum);
     }
 }
 
@@ -46,5 +48,5 @@ pool-1-thread-2-30
 pool-1-thread-3-36
 pool-1-thread-1-42
 pool-1-thread-2-48
-
+Total: 48
  */
